@@ -20,7 +20,7 @@ ctx.fillRect(0, 0, canvas.width, canvas.height);  // now fill the canvas
 ////
 
 // Code final à utiliser pour manipuler Pencil.
-//var drawing = new Drawing();
-//var pencil = new Pencil(ctx, drawing, canvas);
-//drawing.paint(ctx, canvas);
+var drawing = new Drawing();
+var pencil = new Pencil(ctx, drawing, canvas);
+drawing.paint(ctx, canvas);
 
